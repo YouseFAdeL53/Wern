@@ -1,0 +1,99 @@
+@import "./variables";
+
+// PlaceHolder
+%secBackground {
+  background-color: hsl(222, 44%, 13%);
+  border: 1px solid hsl(216, 33%, 20%);
+  border-radius: 6px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsla(222, 47%, 11%, 1);
+  font-family: "Noto Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: hsl(199, 89%, 49%);
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: hsla(222, 47%, 11%, 1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-btn {
+  background-image: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea);
+  background-position: left;
+  background-size: 200%;
+  color: #fff;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  transition: $trans;
+  &:hover {
+    background-position: right;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    letter-spacing: 0.5px;
+  }
+}
+
+.btn:focus-visible {
+  color: #fff;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: #fff;
+}
+
+.main-title {
+  h2 {
+    color: transparent;
+    background: $text-gradient;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-weight: bold;
+    width: fit-content;
+    font-size: 33px;
+    text-transform: capitalize;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 50%;
+      height: 3px;
+      background-color: #0bd1d1;
+      bottom: -10px;
+      left: 0;
+    }
+  }
+  p {
+    color: #d2d2d2;
+    width: fit-content;
+    margin-top: 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+}

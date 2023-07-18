@@ -1,0 +1,11 @@
+{
+  "string": "Name",
+  "number": 100,
+  "Obj": {
+    "name": "Mostafa",
+    "country": "EG"
+  },
+  "array": ["HTML", "CSS", "JavaScript"],
+  "boolean": true,
+  "null": null
+}
