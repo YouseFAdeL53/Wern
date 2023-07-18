@@ -125,7 +125,7 @@ a {
   top: 0;
   left: 0;
   height: 3px;
-  width: 100%;
+  width: 0%;
   background: linear-gradient(90deg, #0ea5ea, #0bd1d1 51%);
   z-index: 15;
   transition: 0.25s ease;
