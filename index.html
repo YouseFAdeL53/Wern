@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+    <link rel="shortcut icon" href="image/logo.png">
+  <title>Wern | Blog</title>
+</head>
+
+<body>
+  <div class="preload">
+    <div class="line"></div>
+  </div>
+  <div class="scroller"></div>
+  <!-- Start Sidebar -->
+  <div class="sidebar">
+    <div class="content">
+      <div class="head d-flex align-items-center justify-content-between">
+        <h2>YouseF AdeL</h2>
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <ul class="links list-unstyled mt-3 mb-3">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#topic">Topic</a></li>
+        <li><a href="#feature">Feature</a></li>
+        <li><a href="#recent">Recent</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="info d-flex align-items-center gap-3">
+        <img src="image/user.webp" alt="">
+        <div class="text">
+          <h2>Hello <span>YouseF</span></h2>
+          <span>You Have 3 Messages</span>
+        </div>
+      </div>
+      <h2 class="deign">Design By <Span>YouseF AdeL</Span></h2>
+    </div>
+  </div>
+  <!-- End sidebar -->
+  <!-- * Todo: Header -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="header-area w-100 d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center gap-2">
+          <img src="image/logo.png" alt="">
+          <span>YouseF AdeL</span>
+        </a>
+        <ul class="navLinks p-0 m-0 d-none d-lg-flex list-unstyled gap-3">
+          <li class="item"><a href="#home" data-move="#home" class="active">Home</a></li>
+          <li class="item"><a href="#topic" data-move="#topic">Topics</a></li>
+          <li class="item"><a href="#feature" data-move="#feature">Feature</a></li>
+          <li class="item"><a href="#recent" data-move="#recent">Recent Post</a></li>
+          <li class="item"><a href="#contact" data-move="#contact">Contact</a></li>
+        </ul>
+        <div class="theBtn">
+          <button class="btn main-btn d-none d-lg-flex">Subscribe</button>
+        </div>
+        <i class="fa-solid fa-bars d-flex d-lg-none toggle"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- * Todo: End Header -->
+  <!-- ToDo Landing -->
+  <section class="landing" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-12 col-lg-6">
+          <div class="text mt-5">
+            <span>Hello Everyone!</span>
+            <h1><span>I'm</span> YouseF AdeL</h1>
+            <p class="desc">
+              I use animation as a third dimension by which to simplify experiences and kuiding thro each and every
+              interaction. I’m
+              not adding motion just to spruce things up, but doing it in ways that.
+            </p>
+          </div>
+          <div class="info">
+            <input type="text" placeholder="Your Email Address">
+            <button class="btn main-btn">Subscribe</button>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6">
+          <div class="image position-relative text-center mt-5">
+            <img src="image/hero-banner.png" class="img-fluid" alt="">
+            <img src="image/pattern-2.svg" class="pattren" alt="">
+            <img src="image/circle.svg" class="circle" alt="">
+          </div>
+        </div>
+      </div>
+      <img src="image/shadow-1.svg" class="shadow-img" alt="">
+      <img src="image/shadow-2.svg" class="shadow-img2" alt="">
+    </div>
+  </section>
+  <!-- ToDo Landing -->
+  <!-- Start Topic -->
+  <div class="topic mb-3" id="topic">
+    <div class="container">
+      <div class="content">
+        <div class="left mb-3 mb-lg-0">
+          <div class="text">
+            <h2>Hot Topic</h2>
+            <p>Don't miss out on the latest news about Travel tips, Hotels review, Food guide...</p>
+          </div>
+          <div class="arrows">
+            <i class="fa-solid fa-angles-left" id="left"></i>
+            <i class="fa-solid fa-angles-right" id="right"></i>
+          </div>
+        </div>
+        <div class="right">
+          <div class="box">
+            <img src="image/topic-1.png" draggable="false" alt="">
+            <div class="text">
+              <h2>Sport</h2>
+              <span>38 Articles</span>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/topic-2.png" draggable="false" alt="">
+            <div class="text">
+              <h2>Travel</h2>
+              <span>36 Articles</span>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/topic-3.png" draggable="false" alt="">
+            <div class="text">
+              <h2>Design</h2>
+              <span>30 Articles</span>
+            </div>
+          </div>
+          <div class="box">
+            <img draggable="false" src="image/topic-2.png" alt="">
+            <div class="text">
+              <h2>Travel</h2>
+              <span>36 Articles</span>
+            </div>
+          </div>
+          <div class="box">
+            <img draggable="false" src="image/topic-4.png" alt="">
+            <div class="text">
+              <h2>Movie</h2>
+              <span>33 Articles</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Tipic -->
+  <!-- Start feature -->
+  <div class="feature mt-5 mb-3 position-relative" id="feature">
+    <div class="container">
+      <div class="main-title">
+        <h2>Editor's Picked</h2>
+        <p>Featured and highly rated articles</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="box mb-3">
+            <img src="image/featured-1.png" alt="">
+            <div class="text">
+              <div class="head d-flex justify-content-between">
+                <div class="hastag d-flex gap-2">
+                  <span>#Travel</span>
+                  <span>#liftStyle</span>
+                </div>
+                <div class="time d-flex align-items-center gap-2">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>3 mins read</span>
+                </div>
+              </div>
+              <h2>
+                Self-observation is the first step of inner unfolding
+              </h2>
+              <div class="title d-flex align-items-center gap-3">
+                <img src="image/user.webp" alt="">
+                <div class="name">
+                  <h2>Nasser</h2>
+                  <span class="Time">25 Nov 2022</span>
+                </div>
+                <a href="#read" class="read ms-auto btn main-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6">
+          <div class="box mb-3">
+            <img src="image/featured-2.png" alt="">
+            <div class="text">
+              <div class="head d-flex justify-content-between">
+                <div class="hastag d-flex gap-2">
+                  <span>#Design</span>
+                  <span>#Movie</span>
+                </div>
+                <div class="time d-flex align-items-center gap-2">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>7 mins read</span>
+                </div>
+              </div>
+              <h2>
+                Self-observation is the first step of inner unfolding
+              </h2>
+              <div class="title d-flex align-items-center gap-3">
+                <img src="image/user.webp" alt="">
+                <div class="name">
+                  <h2>Mostafa</h2>
+                  <span class="Time">20 Jan 2023</span>
+                </div>
+                <a href="#read" class="read ms-auto btn main-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="box mb-3 mb-md-0 mb-lg-0">
+            <img src="image/featured-3.png" alt="">
+            <div class="text">
+              <div class="head d-flex justify-content-between">
+                <div class="hastag d-flex gap-2">
+                  <span>#Design</span>
+                  <span>#Movie</span>
+                </div>
+                <div class="time d-flex align-items-center gap-2">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>7 mins read</span>
+                </div>
+              </div>
+              <h2>
+                Self-observation is the first step of inner unfolding
+              </h2>
+              <div class="title d-flex align-items-center gap-3">
+                <img src="image/user.webp" alt="">
+                <div class="name">
+                  <h2>Mahmoud</h2>
+                  <span class="Time">20 Jan 2023</span>
+                </div>
+                <a href="#read" class="read ms-auto btn main-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="box mb-3 mb-md-0 mb-lg-0">
+            <img src="image/featured-4.png" alt="">
+            <div class="text">
+              <div class="head d-flex justify-content-between">
+                <div class="hastag d-flex gap-2">
+                  <span>#Design</span>
+                  <span>#Movie</span>
+                </div>
+                <div class="time d-flex align-items-center gap-2">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>7 mins read</span>
+                </div>
+              </div>
+              <h2>
+                Self-observation is the first step of inner unfolding
+              </h2>
+              <div class="title d-flex align-items-center gap-3">
+                <img src="image/user.webp" alt="">
+                <div class="name">
+                  <h2>Yehia</h2>
+                  <span class="Time">20 Jan 2023</span>
+                </div>
+                <a href="#read" class="read ms-auto btn main-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="box mb-3 mb-md-0 mb-lg-0">
+            <img src="image/featured-5.png" alt="">
+            <div class="text">
+              <div class="head d-flex justify-content-between">
+                <div class="hastag d-flex gap-2">
+                  <span>#Design</span>
+                  <span>#Movie</span>
+                </div>
+                <div class="time d-flex align-items-center gap-2">
+                  <i class="fa-regular fa-clock"></i>
+                  <span>7 mins read</span>
+                </div>
+              </div>
+              <h2>
+                Self-observation is the first step of inner unfolding
+              </h2>
+              <div class="title d-flex align-items-center gap-3">
+                <img src="image/user.webp" alt="">
+                <div class="name">
+                  <h2>Moamen</h2>
+                  <span class="Time">20 Jan 2023</span>
+                </div>
+                <a href="#read" class="read ms-auto btn main-btn">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="image/shadow-3-right.svg" class="shadow-right" alt="">
+    </div>
+    <button class="btn main-btn d-block mx-auto my-5">Show More Posts</button>
+  </div>
+  <!-- End Feature -->
+  <!-- LightBox -->
+  <div class="lightbox">
+    <div class="content">
+      <i class="fa-solid fa-x close"></i>
+      <img src="image/featured-1.png" alt="">
+    </div>
+  </div>
+  <!-- End LightBox -->
+  <!-- Start Popular -->
+  <div class="popular mb-3 position-relative" id="popular">
+    <img src="image/shadow-1.svg" class="shadow-left" alt="">
+    <img src="image/shadow-2.svg" class="shadow-center" alt="">
+    <div class="container">
+      <div class="main-title">
+        <h2>Popular Tags</h2>
+        <p>Most searched keywords</p>
+      </div>
+      <div class="d-flex content">
+        <marquee behavior="sliding">
+          <div class="item">
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag1.png" alt="">
+              <h2>Travel</h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag2.png" alt="">
+              <h2>Culture</h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag3.png" alt="">
+              <h2>LifeStyle</h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag4.png" alt="">
+              <h2>Fashion</h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag5.png" alt="">
+              <h2>Food</h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag6.png" alt="">
+              <h2>Space</h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag7.png" alt="">
+              <h2>Animal</h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag8.png" alt="">
+              <h2>Mainimal</h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag9.png" alt="">
+              <h2>
+                Interior
+              </h2>
+            </div>
+            <div class="box d-flex align-items-center gap-2">
+              <img src="image/tag12.png" alt="">
+              <h2>Bussiness</h2>
+            </div>
+          </div>
+      </div>
+      </marquee>
+    </div>
+  </div>
+  <!-- End Popular -->
+  <!-- Start recent -->
+  <div class="recent mt-4 mb-3" id="recent">
+    <div class="container">
+      <div class="main-title">
+        <h2>Recent Posts</h2>
+        <p>Don't miss the latest trends</p>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-8">
+          <div class="recent-srv">
+            <div class="box d-flex gap-3 mb-5 flex-column flex-lg-row">
+              <img src="image/recent-post-1.jpg" alt="">
+              <div class="text">
+                <button class="theBtn">Working Tips</button>
+                <h2>Helpful Tips for Working from Home as a Freelancer</h2>
+                <p>Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                  roadrunner flapped lynx far
+                  that and jeepers giggled far and far
+                </p>
+                <div class="bottom d-flex justify-content-between">
+                  <div class="hashtag d-flex gap-2">
+                    <span>#Travel</span>
+                    <span>#liftStyle</span>
+                  </div>
+                  <div class="time d-flex align-items-center gap-2">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>7 mins read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box d-flex gap-3 mb-5 flex-column flex-lg-row">
+              <img src="image/recent-post-2.jpg" alt="">
+              <div class="text">
+                <button class="theBtn">Working Tips</button>
+                <h2>Helpful Tips for Working from Home as a Freelancer</h2>
+                <p>Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                  roadrunner flapped lynx far
+                  that and jeepers giggled far and far
+                </p>
+                <div class="bottom d-flex justify-content-between">
+                  <div class="hashtag d-flex gap-2">
+                    <span>#Travel</span>
+                    <span>#liftStyle</span>
+                  </div>
+                  <div class="time d-flex align-items-center gap-2">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>7 mins read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box d-flex gap-3 mb-5 flex-column flex-lg-row">
+              <img src="image/recent-post-3.jpg" alt="">
+              <div class="text">
+                <button class="theBtn">Working Tips</button>
+                <h2>Helpful Tips for Working from Home as a Freelancer</h2>
+                <p>Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                  roadrunner flapped lynx far
+                  that and jeepers giggled far and far
+                </p>
+                <div class="bottom d-flex justify-content-between">
+                  <div class="hashtag d-flex gap-2">
+                    <span>#Travel</span>
+                    <span>#liftStyle</span>
+                  </div>
+                  <div class="time d-flex align-items-center gap-2">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>7 mins read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box d-flex gap-3 mb-5 flex-column flex-lg-row">
+              <img src="image/recent-post-4.jpg" alt="">
+              <div class="text">
+                <button class="theBtn">Working Tips</button>
+                <h2>Helpful Tips for Working from Home as a Freelancer</h2>
+                <p>Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                  roadrunner flapped lynx far
+                  that and jeepers giggled far and far
+                </p>
+                <div class="bottom d-flex justify-content-between">
+                  <div class="hashtag d-flex gap-2">
+                    <span>#Travel</span>
+                    <span>#liftStyle</span>
+                  </div>
+                  <div class="time d-flex align-items-center gap-2">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>7 mins read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box d-flex gap-3 mb-5 flex-column flex-lg-row">
+              <img src="image/recent-post-5.jpg" alt="">
+              <div class="text">
+                <button class="theBtn">Working Tips</button>
+                <h2>Helpful Tips for Working from Home as a Freelancer</h2>
+                <p>Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                  roadrunner flapped lynx far
+                  that and jeepers giggled far and far
+                </p>
+                <div class="bottom d-flex justify-content-between">
+                  <div class="hashtag d-flex gap-2">
+                    <span>#Travel</span>
+                    <span>#liftStyle</span>
+                  </div>
+                  <div class="time d-flex align-items-center gap-2">
+                    <i class="fa-regular fa-clock"></i>
+                    <span>7 mins read</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="post mb-4">
+            <div class="main-title mb-4">
+              <h2>Popular Posts</h2>
+            </div>
+            <div class="items d-flex align-items-center gap-3 mb-3">
+              <img src="image/popular-post-1.jpg" alt="">
+              <div class="text">
+                <h2>Creating is a privilege but it’s also a gift</h2>
+                <div class="read d-flex align-items-center gap-3">
+                  <span>15 mins read</span>
+                  <span>15 April 2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="items d-flex align-items-center gap-3 mb-3">
+              <img src="image/popular-post-2.jpg" alt="">
+              <div class="text">
+                <h2>Creating is a privilege but it’s also a gift</h2>
+                <div class="read d-flex align-items-center gap-3">
+                  <span>15 mins read</span>
+                  <span>15 April 2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="items d-flex align-items-center gap-3 mb-3">
+              <img src="image/popular-post-3.jpg" alt="">
+              <div class="text">
+                <h2>Creating is a privilege but it’s also a gift</h2>
+                <div class="read d-flex align-items-center gap-3">
+                  <span>15 mins read</span>
+                  <span>15 April 2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="items d-flex align-items-center gap-3 mb-3">
+              <img src="image/popular-post-4.jpg" alt="">
+              <div class="text">
+                <h2>Creating is a privilege but it’s also a gift</h2>
+                <div class="read d-flex align-items-center gap-3">
+                  <span>15 mins read</span>
+                  <span>15 April 2022</span>
+                </div>
+              </div>
+            </div>
+            <div class="items d-flex align-items-center gap-3 mb-3">
+              <img src="image/popular-post-2.jpg" alt="">
+              <div class="text last">
+                <h2>Creating is a privilege but it’s also a gift</h2>
+                <div class="read d-flex align-items-center gap-3">
+                  <span>15 mins read</span>
+                  <span>15 April 2022</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="post mb-4">
+            <div class="main-title mb-4">
+              <h2>Popular Posts</h2>
+            </div>
+            <div class="comment">
+              <div class="com-srv mb-3">
+                <p>“ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                  roadrunner “
+                </p>
+                <div class="info d-flex align-items-center gap-3">
+                  <img src="image/author-6.png" alt="">
+                  <h2>Jane Copper <span class="d-block">15 April 2023</span></h2>
+                </div>
+              </div>
+              <div class="com-srv mb-3">
+                <p>“ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                  roadrunner “
+                </p>
+                <div class="info d-flex align-items-center gap-3">
+                  <img src="image/author-7.png" alt="">
+                  <h2>Maia <span class="d-block">16 April 2023</span></h2>
+                </div>
+              </div>
+              <div class="com-srv mb-3 last">
+                <p>“ Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard
+                  roadrunner “
+                </p>
+                <div class="info d-flex align-items-center gap-3">
+                  <img src="image/author-8.png" alt="">
+                  <h2>Alexis <span class="d-block">17 April 2023</span></h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Start Follow -->
+          <div class="follow post">
+            <div class="title">
+              <h2>YouseF AdeL</h2>
+              <p>Follow us on instagram</p>
+            </div>
+            <div class="images d-flex align-items-center justify-content-between flex-wrap gap-3">
+              <img src="image/insta-post-1.png" alt="">
+              <img src="image/insta-post-2.png" alt="">
+              <img src="image/insta-post-3.png" alt="">
+              <img src="image/insta-post-4.png" alt="">
+              <img src="image/insta-post-5.png" alt="">
+              <img src="image/insta-post-6.png" alt="">
+              <img src="image/insta-post-7.png" alt="">
+              <img src="image/insta-post-8.png" alt="">
+              <img src="image/insta-post-9.png" alt="">
+            </div>
+          </div>
+          <!-- End Follow -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- End recent -->
+  <!-- Footer -->
+  <footer class="copyright d-flex align-items-center justify-content-around flex-column flex-md-row gap-3 gap-md-0" id="contact">
+    <h2>© Developed by <span>YouseF AdeL</span></h2>
+    <div class="socials d-flex align-items-center gap-3">
+      <div class="social twitter">
+        <i class="fa-brands fa-twitter"></i>
+        <span>Twitter</span>
+      </div>
+      <div class="social likend">
+        <i class="fa-brands fa-linkedin"></i>
+        <span>linkedIn</span>
+      </div>
+      <div class="social Instagram">
+        <i class="fa-brands fa-instagram"></i>
+        <span>Instgram</span>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/index.js"></script>
+</body>
+
+</html>
